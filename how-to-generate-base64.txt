@@ -1,0 +1,6 @@
+#Run command in your terminal
+$ echo -n 'mongousername' | base64
+
+$ echo -n 'mongopassword' | base6
+
+Copy output from the command above into your mongo-secret.yaml for user and password
